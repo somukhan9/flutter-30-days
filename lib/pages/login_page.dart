@@ -8,8 +8,9 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Material(
+    return Material(
+      color: Colors.white,
+      child: SingleChildScrollView(
         child: Column(
           children: [
             Image.asset('assets/images/login_image.png'),
