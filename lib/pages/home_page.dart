@@ -8,17 +8,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('HomePage'),
+        title: const Text('Catalog App'),
       ),
       body: Container(
-        decoration: BoxDecoration(color: Theme.of(context).primaryColor),
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
         alignment: Alignment.center,
         child: const Text(
           '30 Days Challenge.',
           style: TextStyle(
-              color: Colors.white, fontWeight: FontWeight.bold, fontSize: 22),
+              color: Colors.black, fontWeight: FontWeight.bold, fontSize: 22),
         ),
       ),
       drawer: const MyDrawer(),

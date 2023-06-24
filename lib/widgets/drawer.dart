@@ -7,20 +7,18 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const String imageUrl =
-        "https://avatars.githubusercontent.com/u/12619420?s=460&u=26db98cbde1dd34c7c67b85c240505a436b2c36d&v=4";
+        "https://scontent.fdac151-1.fna.fbcdn.net/v/t1.6435-9/122702090_2295893270555845_1186201468462564080_n.jpg?_nc_cat=111&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE2YWgsG7rEv15kIpI_ywSPRy-QrUcHH8BHL5CtRwcfwNZ5L25qsXsTAc0PF-KJV8Qmp8aIAv4B8XFAqNiI9iBD&_nc_ohc=Y3M2cf-fDT8AX-z5eUk&_nc_ht=scontent.fdac151-1.fna&oh=00_AfDJZEFE927wL_QYIUW8hMwRd23C10oNdkA0BBdEMgLJHQ&oe=64BE304A";
 
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
-        margin: EdgeInsets.zero,
-        padding: EdgeInsets.zero,
         child: ListView(
           padding: EdgeInsets.zero,
           children: const [
             DrawerHeader(
                 padding: EdgeInsets.zero,
-                margin: EdgeInsets.only(top: 20, bottom: 40),
                 child: UserAccountsDrawerHeader(
+                  margin: EdgeInsets.zero,
                   accountName: Text(
                     "Samrat",
                     textScaleFactor: 1.5,
